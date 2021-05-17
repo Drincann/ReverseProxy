@@ -14,8 +14,7 @@
   "dependencies": {
     "@types/http-proxy": "^1.17.6",
     "@types/koa": "^2.13.1",
-    "http-proxy": "^1.18.1",
-    "koa": "^2.13.1"
+    "http-proxy": "^1.18.1"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.23.0",
