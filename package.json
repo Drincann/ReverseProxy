@@ -1,0 +1,26 @@
+{
+  "name": "reverse-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ./dist",
+    "ts-start": "ts-node ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/http-proxy": "^1.17.6",
+    "@types/koa": "^2.13.1",
+    "http-proxy": "^1.18.1",
+    "koa": "^2.13.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^7.26.0",
+    "typescript": "^4.2.4"
+  }
+}

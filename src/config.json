@@ -1,0 +1,13 @@
+{
+  "servicePort": 80,
+  "mapping": [
+    {
+      "host": "localhost",
+      "target": "http://gaolihai.cool"
+    },
+    {
+      "host": "about.gaolihai.cool",
+      "target": "http://localhost:8002"
+    }
+  ]
+}
